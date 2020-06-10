@@ -16,7 +16,7 @@ Warning: Don't touch newControllers because you will receive your new controller
 if You are using linux you can use `sudo chmod -R 777 path/to/newControllers`. 
 `options, expose` not yet supported
 
-6: You may also need to include ```php use Symfony\Component\Routing\Annotation\Route;``` at the top of controller
+6: You may also need to include `use Symfony\Component\Routing\Annotation\Route;` at the top of controller
 
 # Customization
 If your bundle name is not AppBundle then open index.php and go to line `48` and `100` and change AppBundle to your bundle name
